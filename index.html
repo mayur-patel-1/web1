@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <title>BlackJack Reloaded</title>    
+</head>
+<body>
+    
+    <div class="con5">
+        <div class="hed1">
+            <h2><b>Welcome to BlackJack</b></h2>
+            <h3><b><span id="result">Let's play</span></b></h3>
+        </div>
+        <div class="raw1">
+           <div id="yscore">
+                <h2>You:<span id="yresult">0</span></h2>
+           </div>
+           <div id="dscore">
+            <h2>Dealer:<span id="dresult">0</span></h2>
+           </div>
+        </div>
+        <div class="raw2">
+            <div>
+                <button class="btn-lg btn-primary mr-2" id="hit">Hit</button>
+                <button class="btn-lg btn-warning mr-2" id="stand">Stand</button>
+                <button class="btn-lg btn-danger" id="deal">Deal</button>
+            </div>
+        </div>
+        <div class="raw3">
+            <table>
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draws</th>
+                </tr>
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="losses">0</span></td>
+                    <td><span id="drews">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="bjack.js"></script>
+</body>
+</html>
