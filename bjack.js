@@ -1,4 +1,3 @@
-//document.querySelector['hits'].addEventListener['click',bhit];
 let blackjackGame = {
     'you': {'scorespan':'yresult','div':'yscore','score': 0},
     'dealer': {'scorespan':'dresult','div':'dscore','score': 0},
